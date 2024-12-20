@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Moelleux au Chocolat au Lait</title>
+    <style>
+        /* Global settings */
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f8f8f8;
+            color: #333;
+            margin: 0;
+            padding: 0;
+            line-height: 1.6;
+        }
+        
+        header {
+            background-color: #6f4f37; /* Chocolat */
+            color: white;
+            text-align: center;
+            padding: 40px 0;
+            font-size: 2.5em;
+            font-weight: bold;
+        }
+
+        header h1 {
+            margin: 0;
+        }
+
+        /* Styling the container for the recipe */
+        .recipe-container {
+            max-width: 900px;
+            margin: 40px auto;
+            padding: 30px;
+            background-color: white;
+            border-radius: 12px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+        }
+
+        /* Image style */
+        img {
+            width: 100%;
+            height: auto;
+            border-radius: 8px;
+            margin-bottom: 30px;
+        }
+
+        h2 {
+            color: #6f4f37; /* Chocolat */
+            border-bottom: 2px solid #6f4f37;
+            padding-bottom: 10px;
+            margin-bottom: 20px;
+            font-size: 1.5em;
+        }
+
+        ul, ol {
+            padding-left: 20px;
+        }
+
+        li {
+            margin-bottom: 10px;
+        }
+
+        .ingredients ul, .instructions ol {
+            font-size: 1.1em;
+        }
+
+        .btn {
+            background-color: #6f4f37; /* Chocolat */
+            color: white;
+            padding: 15px 30px;
+            text-decoration: none;
+            font-size: 1.2em;
+            display: inline-block;
+            margin-top: 30px;
+            border-radius: 5px;
+            text-align: center;
+            transition: background-color 0.3s ease;
+        }
+
+        .btn:hover {
+            background-color: #d69b4c; /* Couleur plus claire pour l'effet hover */
+        }
+
+        /* Styling for smaller screens */
+        @media (max-width: 768px) {
+            .recipe-container {
+                padding: 20px;
+                margin: 20px;
+            }
+        }
+
+        footer {
+            text-align: center;
+            padding: 20px;
+            background-color: #6f4f37;
+            color: white;
+            margin-top: 40px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Moelleux au Chocolat au Lait</h1>
+    </header>
+
+    <section>
+        <div class="recipe-container">
+            <!-- Image de gâteau au chocolat -->
+            <img src="https://via.placeholder.com/900x500.png?text=G%C3%A2teau+au+Chocolat" alt="Gâteau au chocolat">
+
+            <h2>Ingrédients</h2>
+            <div class="ingredients">
+                <ul>
+                    <li>170 g de chocolat au lait</li>
+                    <li>2 œufs</li>
+                    <li>68 g de sucre</li>
+                    <li>68 g de farine</li>
+                    <li>85 g de beurre</li>
+                    <li>1 pincée de sel</li>
+                </ul>
+            </div>
+
+            <h2>Instructions</h2>
+            <div class="instructions">
+                <ol>
+                    <li>Préchauffe le four à 180°C (thermostat 6).</li>
+                    <li>Dans une casserole ou au bain-marie, fais fondre le chocolat au lait avec le beurre en remuant jusqu’à ce que le mélange soit lisse.</li>
+                    <li>Dans un bol, bats les œufs avec le sucre jusqu’à ce que le mélange devienne léger et mousseux.</li>
+                    <li>Ajoute la farine et la pincée de sel, puis mélange bien.</li>
+                    <li>Incorpore ensuite le mélange de chocolat et de beurre fondus à cette préparation. Mélange jusqu’à obtenir une pâte homogène.</li>
+                    <li>Beurre et farine légèrement un moule, puis verse la pâte dedans.</li>
+                    <li>Enfourne pour 18 à 20 minutes. Le centre doit rester légèrement fondant.</li>
+                    <li>Laisse refroidir quelques minutes avant de démouler. Servez tiède pour un cœur fondant ou à température ambiante pour un moelleux plus classique.</li>
+                </ol>
+            </div>
+
+            <a href="#" class="btn">Partagez votre création !</a>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Recette Moelleux au Chocolat au Lait | Crée par ChatGPT</p>
+    </footer>
+</body>
+</html>
